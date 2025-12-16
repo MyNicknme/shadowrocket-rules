@@ -1,0 +1,28 @@
+# NAME: Viber
+# UPDATED: 2025-12-17
+# PURPOSE: Messaging + Calls via Proxy
+
+############
+# Core domains
+############
+DOMAIN-SUFFIX,viber.com
+DOMAIN-SUFFIX,viber.co.jp
+DOMAIN-SUFFIX,viber-cdn.net
+DOMAIN-SUFFIX,viber.io
+
+############
+# Call / media
+############
+DOMAIN-SUFFIX,call.viber.com
+DOMAIN-SUFFIX,media.viber.com
+
+############
+# Fallback keyword
+############
+DOMAIN-KEYWORD,viber
+
+############
+# IP fallback (Viber AS only)
+############
+IP-CIDR,91.108.0.0/16,no-resolve
+IP-CIDR,185.51.72.0/22,no-resolve
