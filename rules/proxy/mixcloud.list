@@ -1,0 +1,25 @@
+# NAME: Mixcloud
+# UPDATED: 2025-12-17
+# PURPOSE: Music streaming via Proxy
+
+############
+# Core domains
+############
+DOMAIN-SUFFIX,mixcloud.com
+DOMAIN-SUFFIX,mixcloud.net
+
+############
+# CDN / media
+############
+DOMAIN-SUFFIX,cloudflarestream.com
+DOMAIN-SUFFIX,cf-ipfs.com
+
+############
+# API / embeds
+############
+DOMAIN,api.mixcloud.com
+
+############
+# App User-Agent
+############
+USER-AGENT,Mixcloud*
