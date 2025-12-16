@@ -1,0 +1,31 @@
+# NAME: Discord
+# UPDATED: 2025-12-17
+# PURPOSE: Chat + Voice + Calls via Proxy
+
+############
+# Core domains
+############
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discordapp.net
+DOMAIN-SUFFIX,discordcdn.com
+DOMAIN-SUFFIX,discordmedia.net
+
+############
+# Voice / RTC / Gateway
+############
+DOMAIN-SUFFIX,voice.discord.gg
+DOMAIN-SUFFIX,media.discordapp.net
+DOMAIN-SUFFIX,gateway.discord.gg
+
+############
+# Web / API
+############
+DOMAIN,api.discord.com
+DOMAIN,cdn.discordapp.com
+
+############
+# Safe keyword fallback
+############
+DOMAIN-KEYWORD,discord
