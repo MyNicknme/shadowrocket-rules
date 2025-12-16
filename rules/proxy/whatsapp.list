@@ -1,0 +1,38 @@
+# NAME: WhatsApp
+# UPDATED: 2025-12-17
+# PURPOSE: Messaging + Calls via Proxy
+
+############
+# Core domains
+############
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-SUFFIX,whatsapp.biz
+DOMAIN-SUFFIX,whatsapp-cdn.net
+
+############
+# Meta / API
+############
+DOMAIN,graph.facebook.com
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,facebook.net
+
+############
+# Call / RTC / Relay
+############
+DOMAIN-SUFFIX,mmg.whatsapp.net
+DOMAIN-SUFFIX,call.whatsapp.com
+DOMAIN-SUFFIX,web.whatsapp.com
+
+############
+# Fallback keyword (safe)
+############
+DOMAIN-KEYWORD,whatsapp
+
+############
+# IP fallback (Meta / WhatsApp only)
+############
+IP-CIDR,31.13.64.0/18,no-resolve
+IP-CIDR,157.240.0.0/16,no-resolve
+IP-CIDR,173.252.64.0/18,no-resolve
