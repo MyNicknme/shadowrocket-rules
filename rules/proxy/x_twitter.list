@@ -1,0 +1,50 @@
+# NAME: X (Twitter)
+# UPDATED: 2025-12-17
+# PURPOSE: X/Twitter via Proxy
+
+############
+# Core domains
+############
+DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,twttr.com
+DOMAIN-SUFFIX,twttr.net
+
+############
+# Media / assets
+############
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twimg.co
+DOMAIN-SUFFIX,twimg.org
+DOMAIN-SUFFIX,cms-twdigitalassets.com
+
+############
+# Features / legacy
+############
+DOMAIN-SUFFIX,tweetdeck.com
+DOMAIN-SUFFIX,twitteroauth.com
+DOMAIN-SUFFIX,twitterstat.us
+DOMAIN-SUFFIX,twtrdns.net
+DOMAIN-SUFFIX,pscp.tv
+DOMAIN-SUFFIX,periscope.tv
+DOMAIN-SUFFIX,vine.co
+DOMAIN-SUFFIX,twvid.com
+DOMAIN-SUFFIX,twitpic.com
+
+############
+# AI (if you use it)
+############
+DOMAIN-SUFFIX,grok.com
+
+############
+# Fallback keyword
+############
+DOMAIN-KEYWORD,twitter
+
+############
+# IP fallback (keep low priority)
+############
+IP-CIDR,199.59.148.0/22,no-resolve
+IP-CIDR,192.133.76.0/22,no-resolve
+IP-CIDR,69.195.160.0/19,no-resolve
