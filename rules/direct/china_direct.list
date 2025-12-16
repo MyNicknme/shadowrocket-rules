@@ -1,0 +1,75 @@
+# NAME: China Services (Alipay + WeChat)
+# UPDATED: 2025-12-17
+# PURPOSE: Critical China services DIRECT
+
+########################
+# Alipay / Ant Group
+########################
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,alipay.cn
+DOMAIN-SUFFIX,alipay.com.cn
+DOMAIN-SUFFIX,alipay.hk
+DOMAIN-SUFFIX,alipay.net
+DOMAIN-SUFFIX,alipayobjects.com
+DOMAIN-SUFFIX,alipaydns.com
+DOMAIN-SUFFIX,alipaylog.com
+DOMAIN-SUFFIX,alipay-corp.com
+DOMAIN-SUFFIX,alipay-eco.com
+DOMAIN-SUFFIX,alipay-inc.com
+DOMAIN-SUFFIX,alipay-traffic.com
+DOMAIN-SUFFIX,alipaydesign.com
+DOMAIN-SUFFIX,alipaydev.com
+DOMAIN-SUFFIX,alipayeshop.com
+DOMAIN-SUFFIX,alipaymo.com
+DOMAIN-SUFFIX,alipayplus.com
+DOMAIN-SUFFIX,ifaa.org.cn
+DOMAIN-SUFFIX,sinopayment.com.cn
+
+########################
+# WeChat / WeChat Pay
+########################
+DOMAIN-SUFFIX,wechat.com
+DOMAIN-SUFFIX,weixin.com
+DOMAIN-SUFFIX,weixin.qq.com
+DOMAIN-SUFFIX,wechatpay.com
+DOMAIN-SUFFIX,servicewechat.com
+DOMAIN-SUFFIX,wechatlegal.net
+DOMAIN-SUFFIX,weixinbridge.com
+DOMAIN-SUFFIX,weixinsxy.com
+DOMAIN-SUFFIX,wechatos.net
+
+########################
+# Tencent / QQ Infra
+########################
+DOMAIN-SUFFIX,tenpay.com
+DOMAIN-SUFFIX,wx.qq.com
+DOMAIN-SUFFIX,wxs.qq.com
+DOMAIN-SUFFIX,wx.gtimg.com
+DOMAIN-SUFFIX,qlogo.cn
+DOMAIN-SUFFIX,qpic.cn
+DOMAIN-SUFFIX,map.qq.com
+DOMAIN-SUFFIX,lbs.gtimg.com
+DOMAIN-SUFFIX,iot-tencent.com
+
+########################
+# Specific endpoints
+########################
+DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
+DOMAIN,btrace.qq.com
+DOMAIN,dldir1.qq.com
+DOMAIN,soup.v.qq.com
+DOMAIN,vweixinf.tc.qq.com
+DOMAIN,weixin110.qq.com
+DOMAIN,wup.imtt.qq.com
+DOMAIN,slife.xy-asia.com
+
+########################
+# Optional User-Agent (best-effort)
+########################
+USER-AGENT,MicroMessenger*
+USER-AGENT,WeChat*
+
+########################
+# Optional ASN (only if ASN MMDB enabled)
+########################
+# IP-ASN,132203,no-resolve
