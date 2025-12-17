@@ -18,6 +18,10 @@ DOMAIN-SUFFIX,cf-ipfs.com
 # API / embeds
 ############
 DOMAIN,api.mixcloud.com
+DOMAIN,audio.mixcloud.stream
+DOMAIN,mobile-iphone.mixcloud.com
+DOMAIN,app.mixcloud.com
+DOMAIN,thumbnailer.mixcloud.com
 
 ############
 # App User-Agent
