@@ -19,8 +19,8 @@ DOMAIN-SUFFIX,pki.goog
 ########################
 # Core APIs
 ########################
-DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,gstatic.com
+# DOMAIN-SUFFIX,googleapis.com
+# DOMAIN-SUFFIX,gstatic.com
 
 ########################
 # Mail / Drive / Docs
