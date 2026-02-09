@@ -1,6 +1,7 @@
 # NAME: Ads (minimal)
-# UPDATED: 2025-12-16
+# UPDATED: 2026-02-09
 
+# Google Ads & DoubleClick
 DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,googlesyndication.com
 DOMAIN-SUFFIX,google-analytics.com
@@ -8,4 +9,30 @@ DOMAIN-SUFFIX,googletagmanager.com
 DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,adjust.com
 DOMAIN-SUFFIX,appsflyer.com
+DOMAIN-SUFFIX,unityads.unity3d.com,REJECT
 
+# Facebook & Instagram Trackers
+DOMAIN-SUFFIX,facebook.net,REJECT
+DOMAIN-SUFFIX,graph.facebook.com,REJECT
+
+# Yandex Ads & Metrica
+DOMAIN-SUFFIX,mc.yandex.ru,REJECT
+DOMAIN-SUFFIX,an.yandex.ru,REJECT
+DOMAIN-SUFFIX,yandexmetrica.com,REJECT
+
+# Mail.ru & VK Ads
+DOMAIN-SUFFIX,top-fwz1.mail.ru,REJECT
+DOMAIN-SUFFIX,mradx.net,REJECT
+DOMAIN-SUFFIX,vk-portal.net,REJECT
+
+# Разное
+DOMAIN-SUFFIX,adriver.ru,REJECT
+DOMAIN-SUFFIX,bidvol.com,REJECT
+
+# Crashlytics & Firebase
+DOMAIN-SUFFIX,crashlytics.com,REJECT
+DOMAIN-SUFFIX,firebase-settings.crashlytics.com,REJECT
+
+# Microsoft Telemetry (если используете Office/Outlook на iOS)
+DOMAIN-SUFFIX,vortex.data.microsoft.com,REJECT
+DOMAIN-SUFFIX,telemetry.microsoft.com,REJECT
