@@ -37,7 +37,7 @@ jobs:
             "rules/proxy/mixcloud.list"
             "rules/proxy/spotify.list"
             "rules/proxy/x_twitter.list"
-            "rules/proxy/Gemini.list"
+            "rules/proxy/gemini.list"
             "rules/custom/my_additions.list"
           )
 
