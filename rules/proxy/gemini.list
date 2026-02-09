@@ -1,36 +1,33 @@
 # NAME: Google Gemini / Bard / AI Studio
-# UPDATED: 2025-12-17
+# UPDATED: 2026-02-09
 # PURPOSE: Gemini-related services via Proxy
 
-########################
-# Core entry points
-########################
-DOMAIN,ai.google.dev
-DOMAIN,makersuite.google.com
-DOMAIN,bard.google.com
+# --- Основные интерфейсы ---
 DOMAIN,gemini.google.com
+DOMAIN,bard.google.com
+DOMAIN,aistudio.google.com
+DOMAIN,makersuite.google.com
 
-########################
-# MakerSuite / AI Studio backend
-########################
-DOMAIN,alkalimakersuite-pa.clients6.google.com
+# --- Системный Backend и API (Критично для работы) ---
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,speechenhancement-pa.googleapis.com
+DOMAIN-SUFFIX,cloudia-pa.googleapis.com
+DOMAIN,alkalimakersuite-pa.clients6.google.com
 
-########################
-# DeepMind / Generative AI
-########################
+# --- Инструментарий и нейросети ---
 DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
 DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,notebooklm.google
+DOMAIN,ai.google.dev
 
-########################
-# Supporting Google endpoints (specific)
-########################
-DOMAIN,apis.google.com
+# --- Вспомогательные сервисы ---
+# Важно для авторизации и профилей разработчика
+DOMAIN-SUFFIX,developerprofiles.google
+DOMAIN-SUFFIX,developers.google.com
 
-########################
-# Fallback keywords (keep narrow)
-########################
-DOMAIN-KEYWORD,generativelanguage
-DOMAIN-KEYWORD,developerprofiles
+# --- Ключевые слова (Для охвата новых поддоменов) ---
+DOMAIN-KEYWORD,aisandbox
 DOMAIN-KEYWORD,colab
+DOMAIN-KEYWORD,generativelanguage
