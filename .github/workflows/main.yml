@@ -1,0 +1,47 @@
+name: Purge jsDelivr Cache
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purge Configuration and Lists
+        run: |
+          # Сброс кэша для основного конфига
+          curl -i https://purge.jsdelivr.net/gh/${{ github.repository }}@main/config/setup_stable.conf
+          
+          # Сброс кэша для всех списков правил (добавьте сюда пути, если появятся новые)
+          # Мы используем цикл, чтобы не писать curl для каждого файла
+          FILES=(
+            "rules/direct/lan.list"
+            "rules/direct/ru.list"
+            "rules/direct/apple_domains.list"
+            "rules/direct/apple_useragent.list"
+            "rules/direct/apple_ip.list"
+            "rules/direct/duolingo.list"
+            "rules/direct/china_direct.list"
+            "rules/direct/ru_services.list"
+            "rules/direct/google_direct.list"
+            "rules/block/ads.list"
+            "rules/proxy/telegram.list"
+            "rules/proxy/streaming.list"
+            "rules/proxy/youtube.list"
+            "rules/proxy/whatsapp.list"
+            "rules/proxy/viber.list"
+            "rules/proxy/discord.list"
+            "rules/proxy/soundcloud.list"
+            "rules/proxy/mixcloud.list"
+            "rules/proxy/spotify.list"
+            "rules/proxy/x_twitter.list"
+            "rules/proxy/Gemini.list"
+            "rules/custom/my_additions.list"
+          )
+
+          for FILE in "${FILES[@]}"; do
+            echo "Purging: $FILE"
+            curl -i https://purge.jsdelivr.net/gh/${{ github.repository }}@main/$FILE
+          done
