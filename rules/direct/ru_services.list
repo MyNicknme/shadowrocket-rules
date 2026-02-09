@@ -114,3 +114,13 @@ DOMAIN-SUFFIX,pesc.ru
 DOMAIN-SUFFIX,showip.net
 DOMAIN-SUFFIX,ttk.ru
 DOMAIN-SUFFIX,xn--d1acpjx3f.xn--p1ai
+
+# Банковские домены и антифрод-системы
+DOMAIN-SUFFIX,sberbank.ru,DIRECT
+DOMAIN-SUFFIX,tinkoff.ru,DIRECT
+DOMAIN-SUFFIX,alfabank.ru,DIRECT
+DOMAIN-SUFFIX,gosuslugi.ru,DIRECT
+
+# Работа систем пуш-уведомлений (обязательно DIRECT для РФ)
+DOMAIN-SUFFIX,ru-cloud.ru,DIRECT
+
