@@ -1,126 +1,85 @@
-# NAME: Russia Services
-# UPDATED: 2025-12-17
-# PURPOSE: Russian services DIRECT
+# NAME: Russia Services (Optimized)
+# UPDATED: 2026-02-22
+# PURPOSE: Critical RU services DIRECT to avoid anti-fraud and lag
 
 ########################
-# Government / State
+# Government & State (Госуслуги, Налоги)
 ########################
-DOMAIN-SUFFIX,cbr.ru
-DOMAIN-SUFFIX,edu.ru
-DOMAIN-SUFFIX,emias.info
 DOMAIN-SUFFIX,gosuslugi.ru
-DOMAIN-SUFFIX,government.ru
-DOMAIN-SUFFIX,gov.ru
 DOMAIN-SUFFIX,gu-st.ru
-DOMAIN-SUFFIX,mgfoms.ru
 DOMAIN-SUFFIX,nalog.ru
+DOMAIN-SUFFIX,gov.ru
+DOMAIN-SUFFIX,government.ru
+DOMAIN-SUFFIX,cbr.ru
+DOMAIN-SUFFIX,emias.info
+DOMAIN-SUFFIX,edu.ru
 
 ########################
-# Mail / VK ecosystem
+# VK Ecosystem & OK
 ########################
-DOMAIN-SUFFIX,mail.ru
-DOMAIN-SUFFIX,imgsmail.ru
-DOMAIN-SUFFIX,mycdn.me
-DOMAIN-SUFFIX,ok.ru
-
-DOMAIN-SUFFIX,mradx.net
-DOMAIN-SUFFIX,mvk.com
-DOMAIN-SUFFIX,userapi.com
 DOMAIN-SUFFIX,vk.com
 DOMAIN-SUFFIX,vk.ru
 DOMAIN-SUFFIX,vk.me
-DOMAIN-SUFFIX,vk.cc
-DOMAIN-SUFFIX,vk.link
-DOMAIN-SUFFIX,vk.design
-DOMAIN-SUFFIX,vkgo.app
-DOMAIN-SUFFIX,vklive.app
-DOMAIN-SUFFIX,vkmessenger.app
-DOMAIN-SUFFIX,vkmessenger.com
-DOMAIN-SUFFIX,vkuser.net
-DOMAIN-SUFFIX,vkuseraudio.com
-DOMAIN-SUFFIX,vkuserlive.net
-DOMAIN-SUFFIX,vkuservideo.com
-DOMAIN-SUFFIX,vkuservideo.net
-DOMAIN-SUFFIX,vkontakte.com
-DOMAIN-SUFFIX,vkontakte.ru
-DOMAIN-SUFFIX,vkcache.com
-DOMAIN-SUFFIX,vk-cdn.me
+DOMAIN-SUFFIX,userapi.com
 DOMAIN-SUFFIX,vk-cdn.net
-DOMAIN-SUFFIX,vk-combo.com
-DOMAIN-SUFFIX,vk-portal.net
-DOMAIN-SUFFIX,vkombo.com
+DOMAIN-SUFFIX,mail.ru
+DOMAIN-SUFFIX,imgsmail.ru
+DOMAIN-SUFFIX,ok.ru
+DOMAIN-SUFFIX,mycdn.me
 
 ########################
-# Yandex / Dzen
+# Yandex & Dzen (Consolidated)
 ########################
+DOMAIN-SUFFIX,yandex.ru
+DOMAIN-SUFFIX,yandex.net
+DOMAIN-SUFFIX,yastatic.net
 DOMAIN-SUFFIX,ya.ru
 DOMAIN-SUFFIX,dzen.ru
 DOMAIN-SUFFIX,kinopoisk.ru
 
-DOMAIN-SUFFIX,yandex.ru
-DOMAIN-SUFFIX,yandex.net
-DOMAIN-SUFFIX,yastatic.net
-DOMAIN-SUFFIX,zenadservices.net
-
-DOMAIN-SUFFIX,yaconnect.ru
-DOMAIN-SUFFIX,yandex-team.ru
-DOMAIN-SUFFIX,yandex.jobs
-DOMAIN-SUFFIX,yandex.market
-DOMAIN-SUFFIX,yandex.travel
-DOMAIN-SUFFIX,yandex.taxi
-DOMAIN-SUFFIX,yandex.video
-
-DOMAIN-SUFFIX,yandex.aero
-DOMAIN-SUFFIX,yandex.cloud
-DOMAIN-SUFFIX,yandexcloud.net
-DOMAIN-SUFFIX,yandexdatafactory.com
-DOMAIN-SUFFIX,yandexdatafactory.ru
-DOMAIN-SUFFIX,yandexdataschool.ru
-DOMAIN-SUFFIX,yandexlyceum.ru
+########################
+# Banks & Payments (Критично для DIRECT)
+########################
+DOMAIN-SUFFIX,sberbank.ru
+DOMAIN-SUFFIX,tinkoff.ru
+DOMAIN-SUFFIX,t-bank.ru
+DOMAIN-SUFFIX,alfabank.ru
+DOMAIN-SUFFIX,vtb.ru
+DOMAIN-SUFFIX,raiffeisen.ru
+DOMAIN-SUFFIX,nspk.ru
+DOMAIN-SUFFIX,mirconnect.ru
 
 ########################
-# Transport / Post
+# E-Commerce & Delivery
+########################
+DOMAIN-SUFFIX,ozon.ru
+DOMAIN-SUFFIX,ozonusercontent.com
+DOMAIN-SUFFIX,wb.ru
+DOMAIN-SUFFIX,wildberries.ru
+DOMAIN-SUFFIX,avito.ru
+DOMAIN-SUFFIX,lamoda.ru
+DOMAIN-SUFFIX,vprok.ru
+
+########################
+# Media & Entertainment (RU)
+########################
+DOMAIN-SUFFIX,rutube.ru
+DOMAIN-SUFFIX,smotrim.ru
+DOMAIN-SUFFIX,ivi.ru
+
+########################
+# Transport & Post
 ########################
 DOMAIN-SUFFIX,rzd.ru
-DOMAIN-SUFFIX,rzd-bonus.ru
-DOMAIN-SUFFIX,dzvr.ru
 DOMAIN-SUFFIX,pochta.ru
 DOMAIN-SUFFIX,russianpost.ru
 DOMAIN-SUFFIX,aeroflot.ru
-DOMAIN-SUFFIX,aeroflot.com
 
 ########################
-# Utilities / Commerce
+# Infrastructure & Push
 ########################
-DOMAIN-SUFFIX,avtodor-tr.ru
-DOMAIN-SUFFIX,ozon.ru
-DOMAIN-SUFFIX,ozone.ru
-DOMAIN-SUFFIX,ozonusercontent.com
-DOMAIN-SUFFIX,lemanapro.ru
-DOMAIN-SUFFIX,leroymerlin.ru
-DOMAIN-SUFFIX,mosenergosbyt.ru
-DOMAIN-SUFFIX,mosoblgaz.ru
-DOMAIN-SUFFIX,mosobleirc.ru
-DOMAIN-SUFFIX,xn--90aijkdmaud0d.xn--p1ai
-
-########################
-# Other
-########################
-DOMAIN-SUFFIX,onelya.ru
-DOMAIN-SUFFIX,bitrix.info
-DOMAIN-SUFFIX,bkvet.ru
-DOMAIN-SUFFIX,yadro.ru
-DOMAIN-SUFFIX,pesc.ru
-DOMAIN-SUFFIX,showip.net
-DOMAIN-SUFFIX,ttk.ru
-DOMAIN-SUFFIX,xn--d1acpjx3f.xn--p1ai
-
-# Банковские домены и антифрод-системы
-DOMAIN-SUFFIX,sberbank.ru,DIRECT
-DOMAIN-SUFFIX,tinkoff.ru,DIRECT
-DOMAIN-SUFFIX,alfabank.ru,DIRECT
-DOMAIN-SUFFIX,gosuslugi.ru,DIRECT
-
-# Работа систем пуш-уведомлений (обязательно DIRECT для РФ)
-DOMAIN-SUFFIX,ru-cloud.ru,DIRECT
-
+DOMAIN-SUFFIX,ru-cloud.ru
+DOMAIN-SUFFIX,beeline.ru
+DOMAIN-SUFFIX,mts.ru
+DOMAIN-SUFFIX,megafon.ru
+DOMAIN-SUFFIX,tele2.ru
