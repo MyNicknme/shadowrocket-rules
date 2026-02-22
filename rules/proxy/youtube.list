@@ -1,53 +1,52 @@
-# NAME: YouTube
-# UPDATED: 2025-12-17
-# PURPOSE: YouTube / YouTube Music via Proxy
+# NAME: YouTube - Optimized
+# UPDATED: 2026-02-22
+# PURPOSE: YouTube / YouTube Music via Proxy (Full Support)
 
 ########################
 # Core YouTube
 ########################
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,youtube-nocookie.com
 DOMAIN-SUFFIX,youtubeeducation.com
 DOMAIN-SUFFIX,youtubekids.com
 DOMAIN-SUFFIX,youtubegaming.com
 
 ########################
-# YouTube API
+# YouTube API & Infrastructure
 ########################
 DOMAIN-SUFFIX,youtubei.googleapis.com
 DOMAIN-SUFFIX,youtube.googleapis.com
 DOMAIN-SUFFIX,youtubeembeddedplayer.googleapis.com
+DOMAIN-SUFFIX,jnn-pa.googleapis.com
+DOMAIN-SUFFIX,yt-video-upload.l.google.com
 
 ########################
-# Video delivery
+# Video delivery (googlevideo)
 ########################
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,video.google.com
 
 ########################
-# Images / avatars / previews
+# Images / Avatars / Content
 ########################
 DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,ggpht.cn
 DOMAIN-SUFFIX,ytimg.l.google.com
 DOMAIN-SUFFIX,i.ytimg.com
-DOMAIN-SUFFIX,i9.ytimg.com
 DOMAIN-SUFFIX,yt3.ggpht.com
 DOMAIN-SUFFIX,yt4.ggpht.com
+DOMAIN-SUFFIX,yt3.googleusercontent.com
 
 ########################
-# UI / service endpoints
+# UI / Service Endpoints
 ########################
 DOMAIN-SUFFIX,youtube-ui.l.google.com
 DOMAIN-SUFFIX,wide-youtube.l.google.com
 DOMAIN-SUFFIX,withyoutube.com
-
-########################
-# Short domains
-########################
-DOMAIN-SUFFIX,yt.be
+DOMAIN-SUFFIX,returnyoutubedislikeapi.com
 
 ########################
 # Fallback keyword
@@ -63,8 +62,8 @@ USER-AGENT,com.google.ios.youtube*
 USER-AGENT,com.google.ios.youtubemusic*
 
 ########################
-# Optional IP fallback (safe, narrow)
+# IP fallback (narrow)
 ########################
 IP-CIDR,172.110.32.0/21,no-resolve
 IP-CIDR,216.73.80.0/20,no-resolve
-IP-CIDR,2620:120:e000::/40,no-resolve
+IP-CIDR6,2620:120:e000::/40,no-resolve
