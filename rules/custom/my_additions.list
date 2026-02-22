@@ -1,4 +1,3 @@
-RULE-SET,https://raw.githubusercontent.com/HybridNetworks/whatsapp-cidr/main/WhatsApp/whatsapp_cidr_ipv4.list,PROXY
 RULE-SET,https://raw.githubusercontent.com/VladislavMikhailov1995/shadowrocket_config/refs/heads/files/Spotify.list,PROXY
 RULE-SET,https://raw.githubusercontent.com/VladislavMikhailov1995/shadowrocket_config/refs/heads/files/list_config/Services_twitter.list,PROXY
 RULE-SET,https://raw.githubusercontent.com/VladislavMikhailov1995/shadowrocket_config/refs/heads/files/list_config/Services_meta.list,PROXY
@@ -19,7 +18,6 @@ RULE-SET,https://raw.githubusercontent.com/VladislavMikhailov1995/shadowrocket_c
 RULE-SET,https://raw.githubusercontent.com/misha-tgshv/shadowrocket-configuration-file/main/rules/domains_community.list,PROXY
 RULE-SET,https://raw.githubusercontent.com/misha-tgshv/shadowrocket-configuration-file/refs/heads/main/rules/domain_ips.list,PROXY,no-resolve
 RULE-SET,https://raw.githubusercontent.com/misha-tgshv/shadowrocket-configuration-file/main/rules/voice_ports.list,PROXY
-RULE-SET,https://raw.githubusercontent.com/HybridNetworks/whatsapp-cidr/refs/heads/main/WhatsApp/whatsapp_cidr_ipv4.list,PROXY,no-resolve
 DOMAIN-SUFFIX,al.sndcdn.com,PROXY
 DOMAIN-SUFFIX,cloud.aditude.io,PROXY
 DOMAIN-SUFFIX,al.sndcdn.com,PROXY
