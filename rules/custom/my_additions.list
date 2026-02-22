@@ -6,13 +6,6 @@ RULE-SET,https://raw.githubusercontent.com/VladislavMikhailov1995/shadowrocket_c
 RULE-SET,https://raw.githubusercontent.com/misha-tgshv/shadowrocket-configuration-file/main/rules/domains_community.list,PROXY
 RULE-SET,https://raw.githubusercontent.com/misha-tgshv/shadowrocket-configuration-file/refs/heads/main/rules/domain_ips.list,PROXY,no-resolve
 RULE-SET,https://raw.githubusercontent.com/misha-tgshv/shadowrocket-configuration-file/main/rules/voice_ports.list,PROXY
-DOMAIN-SUFFIX,al.sndcdn.com,PROXY
-DOMAIN-SUFFIX,cloud.aditude.io,PROXY
-DOMAIN-SUFFIX,al.sndcdn.com,PROXY
-DOMAIN-SUFFIX,cloud.aditude.io,PROXY
-DOMAIN-SUFFIX,telemetry.soundcloud.com,PROXY
-DOMAIN-SUFFIX,graph.soundcloud.com,PROXY
-RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Shadowrocket/SoundCloud/SoundCloud.list,PROXY
 DOMAIN-SUFFIX,boombeach.inbox.supercell.com,PROXY
 DOMAIN-SUFFIX,inventory.mtech.supercell.com,PROXY
 DOMAIN-SUFFIX,id.supercell.com,PROXY
