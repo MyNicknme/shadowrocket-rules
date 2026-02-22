@@ -1,18 +1,19 @@
-# NAME: X (Twitter)
-# UPDATED: 2025-12-17
-# PURPOSE: X/Twitter via Proxy
+# NAME: X (Twitter) - Optimized
+# UPDATED: 2026-02-22
+# PURPOSE: X/Twitter via Proxy (Japan Optimized)
 
 ############
 # Core domains
 ############
 DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,twitter.jp
 DOMAIN-SUFFIX,t.co
 DOMAIN-SUFFIX,twttr.com
 DOMAIN-SUFFIX,twttr.net
 
 ############
-# Media / assets
+# Media / Assets
 ############
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,twimg.co
@@ -20,22 +21,29 @@ DOMAIN-SUFFIX,twimg.org
 DOMAIN-SUFFIX,cms-twdigitalassets.com
 
 ############
-# Features / legacy
+# Features / Legacy / Business
 ############
 DOMAIN-SUFFIX,tweetdeck.com
 DOMAIN-SUFFIX,twitteroauth.com
 DOMAIN-SUFFIX,twitterstat.us
+DOMAIN-SUFFIX,twitter.biz
+DOMAIN-SUFFIX,twitterinc.com
+DOMAIN-SUFFIX,twittercommunity.com
+DOMAIN-SUFFIX,twitterflightschool.com
 DOMAIN-SUFFIX,twtrdns.net
 DOMAIN-SUFFIX,pscp.tv
 DOMAIN-SUFFIX,periscope.tv
 DOMAIN-SUFFIX,vine.co
 DOMAIN-SUFFIX,twvid.com
 DOMAIN-SUFFIX,twitpic.com
+DOMAIN-SUFFIX,ads-twitter.com
+DOMAIN-SUFFIX,tellapart.com
 
 ############
-# AI (if you use it)
+# AI & Grok
 ############
 DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,x.ai
 
 ############
 # Fallback keyword
@@ -43,7 +51,7 @@ DOMAIN-SUFFIX,grok.com
 DOMAIN-KEYWORD,twitter
 
 ############
-# IP fallback (keep low priority)
+# IP fallback (Meta / Twitter)
 ############
 IP-CIDR,199.59.148.0/22,no-resolve
 IP-CIDR,192.133.76.0/22,no-resolve
