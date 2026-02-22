@@ -1,31 +1,55 @@
-# NAME: Discord
-# UPDATED: 2025-12-17
-# PURPOSE: Chat + Voice + Calls via Proxy
+# NAME: Discord (Optimized)
+# UPDATED: 2026-02-22
+# PURPOSE: Chat + Smooth Voice + Files via Proxy
 
 ############
 # Core domains
 ############
 DOMAIN-SUFFIX,discord.com
 DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discord.media
 DOMAIN-SUFFIX,discordapp.com
 DOMAIN-SUFFIX,discordapp.net
 DOMAIN-SUFFIX,discordcdn.com
 DOMAIN-SUFFIX,discordmedia.net
+DOMAIN-SUFFIX,dis.gd
+DOMAIN-SUFFIX,discord.co
+DOMAIN-SUFFIX,discord.gift
+DOMAIN-SUFFIX,discord.gifts
 
 ############
-# Voice / RTC / Gateway
+# Voice / Activities / Development
 ############
 DOMAIN-SUFFIX,voice.discord.gg
 DOMAIN-SUFFIX,media.discordapp.net
 DOMAIN-SUFFIX,gateway.discord.gg
+DOMAIN-SUFFIX,discordactivities.com
+DOMAIN-SUFFIX,discordpartygames.com
+DOMAIN-SUFFIX,discordsays.com
+DOMAIN-SUFFIX,discord.design
+DOMAIN-SUFFIX,discord.dev
 
 ############
-# Web / API
+# Web / API / Storage
 ############
 DOMAIN,api.discord.com
 DOMAIN,cdn.discordapp.com
+DOMAIN-SUFFIX,discord-attachments-uploads-prd.storage.googleapis.com
 
 ############
-# Safe keyword fallback
+# Fallback keyword
 ############
 DOMAIN-KEYWORD,discord
+
+############
+# Infrastructure IP CIDR (Voice & CDN)
+############
+# Cloudflare & Google Cloud ranges used by Discord
+IP-CIDR,162.158.0.0/15,no-resolve
+IP-CIDR,172.64.0.0/13,no-resolve
+IP-CIDR,34.0.0.0/15,no-resolve
+IP-CIDR,35.192.0.0/12,no-resolve
+IP-CIDR,66.22.192.0/18,no-resolve
+IP-CIDR,138.128.136.0/21,no-resolve
+IP-CIDR,5.200.14.128/25,no-resolve
+IP-CIDR6,2606:4700::/32,no-resolve
