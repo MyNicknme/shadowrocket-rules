@@ -1,75 +1,84 @@
-# NAME: China Services (Alipay + WeChat)
-# UPDATED: 2025-12-17
-# PURPOSE: Critical China services DIRECT
+# NAME: China Services (Alibaba + Tencent + Poizon)
+# UPDATED: 2026-02-22
+# PURPOSE: Critical China services DIRECT for Vladivostok
 
 ########################
-# Alipay / Ant Group
+# 1. Alibaba Group (Alipay, Taobao, Tmall, Aliyun)
 ########################
-DOMAIN-SUFFIX,alipay.com
-DOMAIN-SUFFIX,alipay.cn
-DOMAIN-SUFFIX,alipay.com.cn
-DOMAIN-SUFFIX,alipay.hk
-DOMAIN-SUFFIX,alipay.net
-DOMAIN-SUFFIX,alipayobjects.com
-DOMAIN-SUFFIX,alipaydns.com
-DOMAIN-SUFFIX,alipaylog.com
-DOMAIN-SUFFIX,alipay-corp.com
-DOMAIN-SUFFIX,alipay-eco.com
-DOMAIN-SUFFIX,alipay-inc.com
-DOMAIN-SUFFIX,alipay-traffic.com
-DOMAIN-SUFFIX,alipaydesign.com
-DOMAIN-SUFFIX,alipaydev.com
-DOMAIN-SUFFIX,alipayeshop.com
-DOMAIN-SUFFIX,alipaymo.com
-DOMAIN-SUFFIX,alipayplus.com
-DOMAIN-SUFFIX,ifaa.org.cn
-DOMAIN-SUFFIX,sinopayment.com.cn
+DOMAIN-SUFFIX,alibaba.com,DIRECT
+DOMAIN-SUFFIX,alicdn.com,DIRECT
+DOMAIN-SUFFIX,aliyun.com,DIRECT
+DOMAIN-SUFFIX,taobao.com,DIRECT
+DOMAIN-SUFFIX,tmall.com,DIRECT
+DOMAIN-SUFFIX,tbcache.com,DIRECT
+DOMAIN-SUFFIX,tbcdn.com,DIRECT
+DOMAIN-SUFFIX,mmstat.com,DIRECT
+# Alipay & Ant Group
+DOMAIN-SUFFIX,alipay.com,DIRECT
+DOMAIN-SUFFIX,alipay.cn,DIRECT
+DOMAIN-SUFFIX,alipay.com.cn,DIRECT
+DOMAIN-SUFFIX,alipay.hk,DIRECT
+DOMAIN-SUFFIX,alipay.net,DIRECT
+DOMAIN-SUFFIX,alipayobjects.com,DIRECT
+DOMAIN-SUFFIX,alipaydns.com,DIRECT
+DOMAIN-SUFFIX,alipaylog.com,DIRECT
+DOMAIN-SUFFIX,alipay-eco.com,DIRECT
+DOMAIN-SUFFIX,alipay-inc.com,DIRECT
+DOMAIN-SUFFIX,alipay-plus.com,DIRECT
+DOMAIN-SUFFIX,alipay-traffic.com,DIRECT
+DOMAIN-SUFFIX,alipaydesign.com,DIRECT
+DOMAIN-SUFFIX,alipaydev.com,DIRECT
+DOMAIN-SUFFIX,alipaymo.com,DIRECT
+DOMAIN-SUFFIX,zamcs.com,DIRECT
+# API & Infrastructure
+DOMAIN,globalmapi.alipay.com,DIRECT
+DOMAIN,mapi.alipay.com,DIRECT
+IP-ASN,37963,DIRECT,no-resolve
 
 ########################
-# WeChat / WeChat Pay
+# 2. Tencent Ecosystem (WeChat, QQ, Tenpay)
 ########################
-DOMAIN-SUFFIX,wechat.com
-DOMAIN-SUFFIX,weixin.com
-DOMAIN-SUFFIX,weixin.qq.com
-DOMAIN-SUFFIX,wechatpay.com
-DOMAIN-SUFFIX,servicewechat.com
-DOMAIN-SUFFIX,wechatlegal.net
-DOMAIN-SUFFIX,weixinbridge.com
-DOMAIN-SUFFIX,weixinsxy.com
-DOMAIN-SUFFIX,wechatos.net
+DOMAIN-SUFFIX,wechat.com,DIRECT
+DOMAIN-SUFFIX,weixin.com,DIRECT
+DOMAIN-SUFFIX,wechatpay.com,DIRECT
+DOMAIN-SUFFIX,weixinbridge.com,DIRECT
+DOMAIN-SUFFIX,wechatos.net,DIRECT
+DOMAIN-SUFFIX,servicewechat.com,DIRECT
+DOMAIN-SUFFIX,tenpay.com,DIRECT
+DOMAIN-SUFFIX,qq.com,DIRECT
+DOMAIN-SUFFIX,gtimg.com,DIRECT
+DOMAIN-SUFFIX,qlogo.cn,DIRECT
+DOMAIN-SUFFIX,qpic.cn,DIRECT
+# Specific Endpoints
+DOMAIN,btrace.qq.com,DIRECT
+DOMAIN,dldir1.qq.com,DIRECT
+DOMAIN,vweixinf.tc.qq.com,DIRECT
+DOMAIN,weixin110.qq.com,DIRECT
+IP-ASN,132203,DIRECT,no-resolve
 
 ########################
-# Tencent / QQ Infra
+# 3. Poizon / Dewu (得物)
 ########################
-DOMAIN-SUFFIX,tenpay.com
-DOMAIN-SUFFIX,wx.qq.com
-DOMAIN-SUFFIX,wxs.qq.com
-DOMAIN-SUFFIX,wx.gtimg.com
-DOMAIN-SUFFIX,qlogo.cn
-DOMAIN-SUFFIX,qpic.cn
-DOMAIN-SUFFIX,map.qq.com
-DOMAIN-SUFFIX,lbs.gtimg.com
-DOMAIN-SUFFIX,iot-tencent.com
+DOMAIN-SUFFIX,dewu.com,DIRECT
+DOMAIN-SUFFIX,poizon.com,DIRECT
+DOMAIN-SUFFIX,izhuang.com,DIRECT
+DOMAIN-SUFFIX,shizhuang.com,DIRECT
+DOMAIN-SUFFIX,shizhuang-inc.net,DIRECT
+DOMAIN-SUFFIX,duapp.com,DIRECT
+DOMAIN-SUFFIX,duapp.net,DIRECT
+DOMAIN-KEYWORD,shizhuang,DIRECT
+IP-ASN,136188,DIRECT,no-resolve
 
 ########################
-# Specific endpoints
+# 4. Misc & Auth Services
 ########################
-DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
-DOMAIN,btrace.qq.com
-DOMAIN,dldir1.qq.com
-DOMAIN,soup.v.qq.com
-DOMAIN,vweixinf.tc.qq.com
-DOMAIN,weixin110.qq.com
-DOMAIN,wup.imtt.qq.com
-DOMAIN,slife.xy-asia.com
+DOMAIN-SUFFIX,ifaa.org.cn,DIRECT
+DOMAIN-SUFFIX,sinopayment.com.cn,DIRECT
+DOMAIN-SUFFIX,slife.xy-asia.com,DIRECT
 
 ########################
-# Optional User-Agent (best-effort)
+# 5. User-Agent & Keywords
 ########################
-USER-AGENT,MicroMessenger*
-USER-AGENT,WeChat*
-
-########################
-# Optional ASN (only if ASN MMDB enabled)
-########################
-# IP-ASN,132203,no-resolve
+USER-AGENT,MicroMessenger*,DIRECT
+USER-AGENT,WeChat*,DIRECT
+DOMAIN-KEYWORD,alipay,DIRECT
