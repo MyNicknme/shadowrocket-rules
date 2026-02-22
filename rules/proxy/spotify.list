@@ -1,6 +1,5 @@
-# NAME: Spotify
-# UPDATED: 2025-12-17
-# PURPOSE: Music streaming via Proxy
+# NAME: Spotify (Corrected & Optimized)
+# UPDATED: 2026-02-22
 
 ############
 # Core domains
@@ -12,7 +11,7 @@ DOMAIN-SUFFIX,spotify-everywhere.com
 DOMAIN-SUFFIX,spotilocal.com
 
 ############
-# CDN / media
+# CDN / Media (Важно для звука без заиканий)
 ############
 DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,pscdn.co
@@ -25,14 +24,10 @@ DOMAIN-SUFFIX,spotify.map.fastly.net
 DOMAIN-SUFFIX,spotify.map.fastlylb.net
 
 ############
-# Short links / misc
+# Дополнительные домены для авторизации и обложек
 ############
 DOMAIN-SUFFIX,byspotify.com
-DOMAIN-SUFFIX,tospotify.com
-
-############
-# Safe keyword fallback
-############
+DOMAIN-SUFFIX,spotify.design
 DOMAIN-KEYWORD,spotify
 
 ############
