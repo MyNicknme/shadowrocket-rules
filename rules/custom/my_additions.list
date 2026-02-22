@@ -2,7 +2,6 @@ RULE-SET,https://raw.githubusercontent.com/VladislavMikhailov1995/shadowrocket_c
 RULE-SET,https://raw.githubusercontent.com/VladislavMikhailov1995/shadowrocket_config/refs/heads/files/list_config/Services_google_ai.list,PROXY
 RULE-SET,https://raw.githubusercontent.com/VladislavMikhailov1995/shadowrocket_config/refs/heads/files/list_config/IPv4_Meta.list,PROXY
 RULE-SET,https://raw.githubusercontent.com/VladislavMikhailov1995/shadowrocket_config/refs/heads/files/list_config/Russia_inside-raw.list,PROXY
-RULE-SET,https://raw.githubusercontent.com/VladislavMikhailov1995/shadowrocket_config/refs/heads/files/list_config/Services_youtube.list,PROXY
 RULE-SET,https://raw.githubusercontent.com/VladislavMikhailov1995/shadowrocket_config/refs/heads/files/domain_custom.list,PROXY
 RULE-SET,https://raw.githubusercontent.com/VladislavMikhailov1995/shadowrocket_config/refs/heads/files/itdog_cloudflare_subnets.list,PROXY
 RULE-SET,https://raw.githubusercontent.com/VladislavMikhailov1995/shadowrocket_config/refs/heads/files/itdog_cloudflare_ipv6.list,PROXY
