@@ -1,33 +1,50 @@
-# NAME: Google Gemini / Bard / AI Studio
-# UPDATED: 2026-02-09
-# PURPOSE: Gemini-related services via Proxy
+# NAME: Google Gemini / AI / Play Store
+# UPDATED: 2026-02-22
+# PURPOSE: Gemini + Google Play + AI Infrastructure
 
-# --- Основные интерфейсы ---
-DOMAIN,gemini.google.com
-DOMAIN,bard.google.com
-DOMAIN,aistudio.google.com
-DOMAIN,makersuite.google.com
+# --- Основные интерфейсы Gemini & AI ---
+DOMAIN-SUFFIX,gemini.google
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN-SUFFIX,notebooklm.google
+DOMAIN-SUFFIX,notebooklm.google.com
+
+# --- Labs & Future AI (Эксперименты) ---
+DOMAIN-SUFFIX,labs.google
+DOMAIN-SUFFIX,jules.google
+DOMAIN-SUFFIX,jules.google.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN,ai.google.dev
 
 # --- Системный Backend и API (Критично для работы) ---
 DOMAIN-SUFFIX,generativelanguage.googleapis.com
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 DOMAIN-SUFFIX,speechenhancement-pa.googleapis.com
 DOMAIN-SUFFIX,cloudia-pa.googleapis.com
+DOMAIN-SUFFIX,geller-pa.googleapis.com
+DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
+DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
 DOMAIN,alkalimakersuite-pa.clients6.google.com
 
-# --- Инструментарий и нейросети ---
-DOMAIN-SUFFIX,deepmind.com
-DOMAIN-SUFFIX,deepmind.google
-DOMAIN-SUFFIX,generativeai.google
-DOMAIN-SUFFIX,notebooklm.google
-DOMAIN,ai.google.dev
+# --- Google Play & Android Services (Для стабильности в РФ) ---
+DOMAIN-SUFFIX,googleplay.com
+DOMAIN-SUFFIX,play.google.com
+DOMAIN-SUFFIX,play.googleapis.com
+DOMAIN-SUFFIX,play-fe.googleapis.com
+DOMAIN-SUFFIX,play-games.googleusercontent.com
+DOMAIN-SUFFIX,play-lh.googleusercontent.com
+DOMAIN-SUFFIX,android.clients.google.com
+DOMAIN-SUFFIX,connectivitycheck.gstatic.com
+DOMAIN-SUFFIX,lh3.googleusercontent.com
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,beacons.gvt2.com
 
-# --- Вспомогательные сервисы ---
-# Важно для авторизации и профилей разработчика
-DOMAIN-SUFFIX,developerprofiles.google
+# --- Ключевые слова и разработчики ---
 DOMAIN-SUFFIX,developers.google.com
-
-# --- Ключевые слова (Для охвата новых поддоменов) ---
-DOMAIN-KEYWORD,aisandbox
+DOMAIN-SUFFIX,developerprofiles.google
 DOMAIN-KEYWORD,colab
-DOMAIN-KEYWORD,generativelanguage
+DOMAIN-KEYWORD,aisandbox
