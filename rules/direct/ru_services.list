@@ -1,9 +1,9 @@
-# NAME: Russia Services (Optimized)
-# UPDATED: 2026-02-22
-# PURPOSE: Critical RU services DIRECT to avoid anti-fraud and lag
+# NAME: Russia Services (Enhanced)
+# UPDATED: 2026-02-23
+# PURPOSE: Critical RU services DIRECT (Consolidated & Cleaned)
 
 ########################
-# Government & State (Госуслуги, Налоги)
+# Government & State (Госуслуги, Мос.ру, ФССП)
 ########################
 DOMAIN-SUFFIX,gosuslugi.ru
 DOMAIN-SUFFIX,gu-st.ru
@@ -11,8 +11,13 @@ DOMAIN-SUFFIX,nalog.ru
 DOMAIN-SUFFIX,gov.ru
 DOMAIN-SUFFIX,government.ru
 DOMAIN-SUFFIX,cbr.ru
-DOMAIN-SUFFIX,emias.info
 DOMAIN-SUFFIX,edu.ru
+DOMAIN-SUFFIX,mos.ru
+DOMAIN-SUFFIX,mosreg.ru
+DOMAIN-SUFFIX,gorzdrav.spb.ru
+DOMAIN-SUFFIX,rosreestr.gov.ru
+DOMAIN-SUFFIX,fssp.gov.ru
+DOMAIN-SUFFIX,xn--90aijkdmaud0d.xn--p1ai
 
 ########################
 # VK Ecosystem & OK
@@ -28,7 +33,7 @@ DOMAIN-SUFFIX,ok.ru
 DOMAIN-SUFFIX,mycdn.me
 
 ########################
-# Yandex & Dzen (Consolidated)
+# Yandex & Dzen
 ########################
 DOMAIN-SUFFIX,yandex.ru
 DOMAIN-SUFFIX,yandex.net
@@ -38,7 +43,7 @@ DOMAIN-SUFFIX,dzen.ru
 DOMAIN-SUFFIX,kinopoisk.ru
 
 ########################
-# Banks & Payments (Критично для DIRECT)
+# Banks, Payments & Insurance
 ########################
 DOMAIN-SUFFIX,sberbank.ru
 DOMAIN-SUFFIX,tinkoff.ru
@@ -48,9 +53,10 @@ DOMAIN-SUFFIX,vtb.ru
 DOMAIN-SUFFIX,raiffeisen.ru
 DOMAIN-SUFFIX,nspk.ru
 DOMAIN-SUFFIX,mirconnect.ru
+DOMAIN-SUFFIX,reso.ru
 
 ########################
-# E-Commerce & Delivery
+# E-Commerce & Auto
 ########################
 DOMAIN-SUFFIX,ozon.ru
 DOMAIN-SUFFIX,ozonusercontent.com
@@ -59,27 +65,43 @@ DOMAIN-SUFFIX,wildberries.ru
 DOMAIN-SUFFIX,avito.ru
 DOMAIN-SUFFIX,lamoda.ru
 DOMAIN-SUFFIX,vprok.ru
+DOMAIN-SUFFIX,lemanapro.ru
+DOMAIN-SUFFIX,leroymerlin.ru
+DOMAIN-SUFFIX,emex.ru
 
 ########################
-# Media & Entertainment (RU)
-########################
-DOMAIN-SUFFIX,rutube.ru
-DOMAIN-SUFFIX,smotrim.ru
-DOMAIN-SUFFIX,ivi.ru
-
-########################
-# Transport & Post
+# Transport, Tickets & Post
 ########################
 DOMAIN-SUFFIX,rzd.ru
+DOMAIN-SUFFIX,rzd-bonus.ru
+DOMAIN-SUFFIX,dzvr.ru
 DOMAIN-SUFFIX,pochta.ru
 DOMAIN-SUFFIX,russianpost.ru
 DOMAIN-SUFFIX,aeroflot.ru
+DOMAIN-SUFFIX,avtodor-tr.ru
+DOMAIN-SUFFIX,onelya.ru
 
 ########################
-# Infrastructure & Push
+# Utilities, ISP & Infrastructure
 ########################
 DOMAIN-SUFFIX,ru-cloud.ru
 DOMAIN-SUFFIX,beeline.ru
 DOMAIN-SUFFIX,mts.ru
 DOMAIN-SUFFIX,megafon.ru
 DOMAIN-SUFFIX,tele2.ru
+DOMAIN-SUFFIX,mosenergosbyt.ru
+DOMAIN-SUFFIX,pesc.ru
+DOMAIN-SUFFIX,bitrix.info
+DOMAIN-SUFFIX,vshark.ttk.ru
+DOMAIN-SUFFIX,1018213540.rsc.cdn77.org
+
+########################
+# Other RU Services
+########################
+DOMAIN-SUFFIX,rutube.ru
+DOMAIN-SUFFIX,smotrim.ru
+DOMAIN-SUFFIX,ivi.ru
+DOMAIN-SUFFIX,bkvet.ru
+DOMAIN-SUFFIX,yadro.ru
+DOMAIN-SUFFIX,showip.net
+DOMAIN-SUFFIX,refocus.ru
