@@ -1,8 +1,57 @@
-# NAME: Streaming
-# UPDATED: 2025-12-16
+# NAME: Streaming Services (Movies, Series, Anime)
+# UPDATED: 2026-02-23
+# EXCLUDED: YouTube (Managed via youtube.list)
 
-DOMAIN-SUFFIX,youtube.com
-DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX,ytimg.com
-DOMAIN-SUFFIX,youtu.be
+########################
+# International (Official)
+########################
+DOMAIN-SUFFIX,netflix.com
+DOMAIN-SUFFIX,netflix.net
+DOMAIN-SUFFIX,nflxext.com
+DOMAIN-SUFFIX,nflximg.net
+DOMAIN-SUFFIX,nflxvideo.net
+DOMAIN-SUFFIX,disneyplus.com
+DOMAIN-SUFFIX,primevideo.com
+DOMAIN-SUFFIX,hbomax.com
+DOMAIN-SUFFIX,max.com
+DOMAIN-SUFFIX,hulu.com
 
+########################
+# Movies & Series (RU/CIS Mirrors)
+########################
+DOMAIN-SUFFIX,hdrezka.ag
+DOMAIN-SUFFIX,hdrezka.ac
+DOMAIN-SUFFIX,hdrezka.me
+DOMAIN-SUFFIX,rezka.ag
+DOMAIN-SUFFIX,lostfilm.tv
+DOMAIN-SUFFIX,lostfilm.today
+DOMAIN-SUFFIX,lostfilm.win
+DOMAIN-SUFFIX,zetflix.online
+DOMAIN-SUFFIX,zetfix.online
+DOMAIN-SUFFIX,kinopub.me
+DOMAIN-SUFFIX,kino.pub
+DOMAIN-SUFFIX,kinogo.ec
+DOMAIN-SUFFIX,kinogo.la
+DOMAIN-SUFFIX,kinovod.net
+DOMAIN-SUFFIX,kinobase.org
+DOMAIN-SUFFIX,kinokopilka.pro
+DOMAIN-SUFFIX,filmix.ac
+DOMAIN-SUFFIX,filmix.biz
+DOMAIN-SUFFIX,seasonvar.ru
+DOMAIN-SUFFIX,hdkinoteatr.com
+DOMAIN-SUFFIX,megapeer.ru
+DOMAIN-SUFFIX,coldfilm.ink
+
+########################
+# Anime & Manga
+########################
+DOMAIN-SUFFIX,anilibria.tv
+DOMAIN-SUFFIX,anilibria.uno
+DOMAIN-SUFFIX,anidub.com
+DOMAIN-SUFFIX,animestars.org
+DOMAIN-SUFFIX,shikimori.me
+DOMAIN-SUFFIX,jut.su
+DOMAIN-SUFFIX,yummyani.me
+DOMAIN-SUFFIX,sovetromantica.com
+DOMAIN-SUFFIX,crunchyroll.com
+DOMAIN-SUFFIX,vrv.co
