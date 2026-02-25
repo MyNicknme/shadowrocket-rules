@@ -1,0 +1,45 @@
+# NAME: AI Services
+# NOTE: Deduped only; content preserved and grouped
+# UPDATED: 2026-02-25
+
+########################
+# DOMAINS
+########################
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN-SUFFIX,deepl.com
+DOMAIN-SUFFIX,elevenlabs.io
+DOMAIN-SUFFIX,genspark.ai
+DOMAIN-SUFFIX,groq.com
+DOMAIN-SUFFIX,hume.ai
+DOMAIN-SUFFIX,kaleido.ai
+DOMAIN-SUFFIX,kilo.ai
+DOMAIN-SUFFIX,lambdalabs.com
+DOMAIN-SUFFIX,langdock.com
+DOMAIN-SUFFIX,lightning.ai
+DOMAIN-SUFFIX,manus.im
+DOMAIN-SUFFIX,ngrok.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,openrouter.ai
+DOMAIN-SUFFIX,recraft.ai
+DOMAIN-SUFFIX,sora.com
+DOMAIN-SUFFIX,trae.ai
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,auth.grazie.ai
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,grazie.ai
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,windsurf.com
+DOMAIN-SUFFIX,x.ai
+
+########################
+# DOMAIN-KEYWORD
+########################
+DOMAIN-KEYWORD,aisandbox
+DOMAIN-KEYWORD,chatgpt
