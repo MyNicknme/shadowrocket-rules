@@ -38,6 +38,12 @@ DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,windsurf.com
 DOMAIN-SUFFIX,x.ai
 
+# NAME: RevenueCat
+# PURPOSE: Subscriptions / paywalls via Proxy
+
+DOMAIN-SUFFIX,revenuecat.com
+DOMAIN-SUFFIX,rev.cat
+
 ########################
 # DOMAIN-KEYWORD
 ########################
