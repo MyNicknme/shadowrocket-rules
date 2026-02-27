@@ -1,22 +1,21 @@
-# NAME: Apple Music & Media (Bypass Region Lock)
+# NAME: Apple Services via Proxy (Music & News)
 # UPDATED: 2026-02-27
 
-# Основные музыкальные сервисы
+# Apple Music & iTunes
 DOMAIN-SUFFIX,music.apple.com
-DOMAIN-SUFFIX,sonos-music.apple.com
 DOMAIN-SUFFIX,itunes.apple.com
 DOMAIN-SUFFIX,itunes.com
-
-# Медиа-контент и стриминг (CDN)
-DOMAIN-SUFFIX,aaplimg.com
-DOMAIN-SUFFIX,cdn-apple.com
-DOMAIN-SUFFIX,mzstatic.com
-
-# Радио и Beats 1
-DOMAIN-SUFFIX,radio-activity.itunes.apple.com
-DOMAIN-SUFFIX,play.itunes.apple.com
-
-# Важные эндпоинты из твоих логов (которые стоит попробовать через прокси)
+DOMAIN-SUFFIX,itunes.apple.com.edgekey.net
 DOMAIN,amp-api.music.apple.com
-DOMAIN,p73-buy.itunes.apple.com
+DOMAIN,play.itunes.apple.com
 DOMAIN,musicstatus.itunes.apple.com
+
+# Media Delivery (CDN) - без этого не будет звука
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,cdn-apple.com
+
+# Apple News (если пользуешься)
+DOMAIN-SUFFIX,apple.news
+USER-AGENT,AppleNews*
+USER-AGENT,com.apple.news*
