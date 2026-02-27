@@ -1,21 +1,33 @@
-# NAME: Apple Services via Proxy (Music & News)
+# NAME: Apple Music & Media (Ultra Hybrid)
 # UPDATED: 2026-02-27
 
-# Apple Music & iTunes
+# --- [API & Interface] ---
 DOMAIN-SUFFIX,music.apple.com
+DOMAIN-SUFFIX,applemusic.com
 DOMAIN-SUFFIX,itunes.apple.com
 DOMAIN-SUFFIX,itunes.com
-DOMAIN-SUFFIX,itunes.apple.com.edgekey.net
 DOMAIN,amp-api.music.apple.com
-DOMAIN,play.itunes.apple.com
 DOMAIN,musicstatus.itunes.apple.com
 
-# Media Delivery (CDN) - без этого не будет звука
-DOMAIN-SUFFIX,aaplimg.com
-DOMAIN-SUFFIX,mzstatic.com
-DOMAIN-SUFFIX,cdn-apple.com
+# --- [Audio Streaming from Blackmatrix] ---
+DOMAIN,aod-ssl.itunes.apple.com
+DOMAIN,aod.itunes.apple.com
+DOMAIN,audio-ssl.itunes.apple.com
+DOMAIN,audio.itunes.apple.com
+DOMAIN,mvod.itunes.apple.com
+DOMAIN,streamingaudio.itunes.apple.com
+DOMAIN-SUFFIX,blobstore.apple.com
 
-# Apple News (если пользуешься)
+# --- [Media Content & Covers] ---
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,mzstatic.com
+
+# --- [News & Radio] ---
 DOMAIN-SUFFIX,apple.news
+DOMAIN-SUFFIX,radio-activity.itunes.apple.com
+
+# --- [User-Agents] ---
+USER-AGENT,Music*
 USER-AGENT,AppleNews*
 USER-AGENT,com.apple.news*
