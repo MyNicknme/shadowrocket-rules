@@ -1,7 +1,6 @@
 # NAME: Apple User-Agent Direct
 
 USER-AGENT,*FindMyiPhone?
-USER-AGENT,*Music?
 USER-AGENT,*WeatherFoundation*
 USER-AGENT,*com.apple.Maps?
 USER-AGENT,*com.apple.mobileme.fmip1
@@ -10,16 +9,12 @@ USER-AGENT,FMFD*
 USER-AGENT,FindMyFriends*
 USER-AGENT,FindMyiPhone*
 USER-AGENT,Maps*
-USER-AGENT,Wallet*
 USER-AGENT,com.apple.Maps
 USER-AGENT,com.apple.appstored*
 USER-AGENT,fmflocatord*
 USER-AGENT,geod*
 USER-AGENT,locationd*
 USER-AGENT,passd*
-USER-AGENT,Music*
 USER-AGENT,AppleNews*
 USER-AGENT,com.apple.news*
-USER-AGENT,AppleTV*
 USER-AGENT,com.apple.trustd*
-USER-AGENT,com.apple.tv*
