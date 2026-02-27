@@ -689,6 +689,10 @@ DOMAIN-SUFFIX,zbigz.com
 DOMAIN-SUFFIX,zedge.net
 DOMAIN-SUFFIX,zendesk.com
 DOMAIN-SUFFIX,zerkalo.io
+DOMAIN-SUFFIX,paypalobjects.com
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,stripe.network
+DOMAIN-SUFFIX,wise.com
 
 # --- [IP СЕТИ (БЕЗ ШИРОКИХ ДИАПАЗОНОВ CF)] ---
 IP-CIDR,1.1.1.1/32,no-resolve
