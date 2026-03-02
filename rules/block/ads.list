@@ -1,48 +1,47 @@
-# NAME: Ads & Trackers (Optimized)
+# NAME: Ads & Trackers
 # UPDATED: 2026-02-22
 
-# --- Google Ads & Analytics ---
-DOMAIN-SUFFIX,doubleclick.net,REJECT
-DOMAIN-SUFFIX,googlesyndication.com,REJECT
-DOMAIN-SUFFIX,google-analytics.com,REJECT
-DOMAIN-SUFFIX,googletagmanager.com,REJECT
-DOMAIN-SUFFIX,app-measurement.com,REJECT
-DOMAIN-SUFFIX,adservice.google.com,REJECT
-DOMAIN-SUFFIX,adservice.google.ru,REJECT
+# Google Ads & Analytics
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,app-measurement.com
+DOMAIN,adservice.google.com
+DOMAIN,adservice.google.ru
 
-# --- Mobile Trackers (Adjust, Appsflyer) ---
-DOMAIN-SUFFIX,adjust.com,REJECT
-DOMAIN-SUFFIX,appsflyer.com,REJECT
-DOMAIN-SUFFIX,unityads.unity3d.com,REJECT
-DOMAIN-SUFFIX,amplitude.com,REJECT
-DOMAIN-SUFFIX,mixpanel.com,REJECT
+# Mobile Trackers
+DOMAIN-SUFFIX,adjust.com
+DOMAIN-SUFFIX,appsflyer.com
+DOMAIN,unityads.unity3d.com
+DOMAIN-SUFFIX,amplitude.com
+DOMAIN-SUFFIX,mixpanel.com
 
-# --- Yandex Ads & Metrica (RU Specific) ---
-DOMAIN-SUFFIX,mc.yandex.ru,REJECT
-DOMAIN-SUFFIX,an.yandex.ru,REJECT
-DOMAIN-SUFFIX,yandexmetrica.com,REJECT
-DOMAIN-SUFFIX,um.yandex.ru,REJECT
-DOMAIN-SUFFIX,advertising.yandex.ru,REJECT
-DOMAIN-SUFFIX,offerwall.yandex.net,REJECT
+# Yandex Ads & Metrica
+DOMAIN,mc.yandex.ru
+DOMAIN,an.yandex.ru
+DOMAIN-SUFFIX,yandexmetrica.com
+DOMAIN,um.yandex.ru
+DOMAIN,advertising.yandex.ru
+DOMAIN-SUFFIX,offerwall.yandex.net
 
-# --- Mail.ru & VK Ads ---
-DOMAIN-SUFFIX,top-fwz1.mail.ru,REJECT
-DOMAIN-SUFFIX,mradx.net,REJECT
-DOMAIN-SUFFIX,vk-portal.net,REJECT
-DOMAIN-SUFFIX,ads.vk.com,REJECT
+# Mail.ru & VK Ads
+DOMAIN,top-fwz1.mail.ru
+DOMAIN-SUFFIX,mradx.net
+DOMAIN-SUFFIX,vk-portal.net
+DOMAIN,ads.vk.com
 
-# --- Viber & Messengers Ads ---
-# Viber, эти правила уберут в нем баннеры
-DOMAIN-SUFFIX,ads.viber.com,REJECT
-DOMAIN-SUFFIX,ads-d.viber.com,REJECT
-DOMAIN-SUFFIX,ads-v.viber.com,REJECT
+# Viber Ads
+DOMAIN,ads.viber.com
+DOMAIN,ads-d.viber.com
+DOMAIN,ads-v.viber.com
 
-# --- Crashlytics & Firebase ---
-DOMAIN-SUFFIX,crashlytics.com,REJECT
-DOMAIN-SUFFIX,firebase-settings.crashlytics.com,REJECT
-DOMAIN-SUFFIX,firebaseinstallations.googleapis.com,REJECT
+# Crashlytics / Firebase (осторожно с installations)
+#DOMAIN-SUFFIX,crashlytics.com
+#DOMAIN,firebase-settings.crashlytics.com
+#DOMAIN,firebaseinstallations.googleapis.com
 
-# --- Microsoft Telemetry ---
-DOMAIN-SUFFIX,vortex.data.microsoft.com,REJECT
-DOMAIN-SUFFIX,telemetry.microsoft.com,REJECT
-DOMAIN-SUFFIX,onecollector.cloudapp.net,REJECT
+# Microsoft Telemetry
+DOMAIN,vortex.data.microsoft.com
+DOMAIN,telemetry.microsoft.com
+DOMAIN,onecollector.cloudapp.net
