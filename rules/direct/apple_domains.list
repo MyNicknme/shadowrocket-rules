@@ -6,6 +6,7 @@ DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,mzstatic.com
 
 # Apple system infrastructure
 DOMAIN-SUFFIX,ls.apple.com
