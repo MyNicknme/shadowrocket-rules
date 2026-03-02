@@ -11,7 +11,7 @@
 * **Для кого:** Если хочешь включить VPN и забыть о нем.
 
 **Ссылка для установки:**
-`https://cdn.jsdelivr.net/gh/vasyakin/shadowrocket-rules@main/config/setup_stable.conf`
+`https://cdn.jsdelivr.net/gh/MyNicknme/shadowrocket-rules@main/config/setup_stable.conf`
 
 ---
 
@@ -20,7 +20,7 @@
 * **Для кого:** Если нужен доступ только к конкретным сервисам (Instagram, YouTube, ChatGPT), а всё остальное должно лететь через провайдера.
 
 **Ссылка для установки:**
-`https://cdn.jsdelivr.net/gh/vasyakin/shadowrocket-rules@main/config/setup_only_blocked.conf`
+`https://cdn.jsdelivr.net/gh/MyNicknme/shadowrocket-rules@main/config/setup_only_blocked.conf`
 
 ---
 
@@ -46,4 +46,4 @@
 2. Для принудительного обновления в приложении: **Config -> Нажать на конфиг -> Force Update**.
 
 ---
-*Repo maintained by [vasyakin](https://github.com/MyNicknme)*
+*Repo maintained by [MyNicknme](https://github.com/MyNicknme)*
