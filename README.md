@@ -46,4 +46,4 @@
 2. Для принудительного обновления в приложении: **Config -> Нажать на конфиг -> Force Update**.
 
 ---
-*Repo maintained by [vasyakin](https://github.com/vasyakin)*
+*Repo maintained by [vasyakin](https://github.com/MyNicknme)*
