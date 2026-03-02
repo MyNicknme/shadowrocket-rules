@@ -6,12 +6,12 @@
 
 ## 📥 Варианты установки
 
-### 1. Режим "Stable" (Рекомендуемый)
+### 1. Режим "VPN-by-default" (Рекомендуемый)
 **Логика:** Умная маршрутизация. Банки, Госуслуги, Apple и китайские сервисы (Poizon/Alipay) идут **напрямую**. Все заблокированные ресурсы и остальной зарубежный трафик — **через прокси**.
 * **Для кого:** Если хочешь включить VPN и забыть о нем.
 
 **Ссылка для установки:**
-`https://cdn.jsdelivr.net/gh/MyNicknme/shadowrocket-rules@main/config/setup_stable.conf`
+`[https://cdn.jsdelivr.net/gh/MyNicknme/shadowrocket-rules@main/config/setup_stable.conf](https://cdn.jsdelivr.net/gh/MyNicknme/shadowrocket-rules@refs/heads/main/config/VPN-by-default.conf)`
 
 ---
 
