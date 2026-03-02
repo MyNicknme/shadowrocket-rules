@@ -1,5 +1,5 @@
 # NAME: Russia Services (Enhanced)
-# UPDATED: 2026-02-23
+# UPDATED: 2026-03-02
 # PURPOSE: Critical RU services DIRECT (Consolidated & Cleaned)
 
 ########################
@@ -14,9 +14,9 @@ DOMAIN-SUFFIX,cbr.ru
 DOMAIN-SUFFIX,edu.ru
 DOMAIN-SUFFIX,mos.ru
 DOMAIN-SUFFIX,mosreg.ru
-DOMAIN-SUFFIX,gorzdrav.spb.ru
-DOMAIN-SUFFIX,rosreestr.gov.ru
-DOMAIN-SUFFIX,fssp.gov.ru
+DOMAIN,gorzdrav.spb.ru
+DOMAIN,rosreestr.gov.ru
+DOMAIN,fssp.gov.ru
 DOMAIN-SUFFIX,xn--90aijkdmaud0d.xn--p1ai
 
 ########################
@@ -93,7 +93,7 @@ DOMAIN-SUFFIX,mosenergosbyt.ru
 DOMAIN-SUFFIX,pesc.ru
 DOMAIN-SUFFIX,bitrix.info
 DOMAIN-SUFFIX,vshark.ttk.ru
-DOMAIN-SUFFIX,1018213540.rsc.cdn77.org
+DOMAIN,1018213540.rsc.cdn77.org
 
 ########################
 # Other RU Services
@@ -105,3 +105,20 @@ DOMAIN-SUFFIX,bkvet.ru
 DOMAIN-SUFFIX,yadro.ru
 DOMAIN-SUFFIX,showip.net
 DOMAIN-SUFFIX,refocus.ru
+
+# Popular banks / fintech
+DOMAIN-SUFFIX,gazprombank.ru
+DOMAIN-SUFFIX,open.ru
+DOMAIN-SUFFIX,rosbank.ru
+DOMAIN-SUFFIX,sovcombank.ru
+DOMAIN-SUFFIX,pochta-bank.ru
+DOMAIN-SUFFIX,unicreditbank.ru
+DOMAIN-SUFFIX,uralsib.ru
+DOMAIN-SUFFIX,akbars.ru
+DOMAIN-SUFFIX,bank-hlynov.ru
+
+# Brokerage / investments
+DOMAIN-SUFFIX,finam.ru
+DOMAIN-SUFFIX,bcs.ru
+DOMAIN-SUFFIX,vtbmyinvest.ru
+DOMAIN-SUFFIX,tinkoffinvest.ru
