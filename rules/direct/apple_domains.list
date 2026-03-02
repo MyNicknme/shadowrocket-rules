@@ -1,24 +1,18 @@
 # NAME: Apple Domains Direct (System & iCloud)
-# UPDATED: 2026-02-27
+# UPDATED: 2026-03-02
 
-# iCloud & Sync
+DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,apple-cloudkit.com
 
-# System Updates & Configuration
-DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,apple-dns.net
+# Apple system infrastructure
+DOMAIN-SUFFIX,ls.apple.com
+DOMAIN-SUFFIX,gateway.icloud.com
+
+# Updates / config
 DOMAIN,configuration.apple.com
 DOMAIN,gdmf.apple.com
 DOMAIN,xp.apple.com
-
-# App Store (System level)
-DOMAIN-SUFFIX,appstore.com
-DOMAIN-SUFFIX,apps.apple.com
-DOMAIN-SUFFIX,itunes.apple.com.edgekey.net
-
-# Infrastructure
-DOMAIN-SUFFIX,akadns.net
-DOMAIN-SUFFIX,edgekey.net
+DOMAIN-SUFFIX,apple-dns.net
