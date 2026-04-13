@@ -1,0 +1,20 @@
+# NAME: 2GIS Domains Direct
+# UPDATED: 2026-04-13
+
+# Core domains
+DOMAIN-SUFFIX,2gis.ru
+DOMAIN-SUFFIX,2gis.com
+DOMAIN-SUFFIX,2gis.me
+
+# API & Services
+DOMAIN-KEYWORD,api.2gis
+DOMAIN-SUFFIX,platform.2gis.ru
+DOMAIN-SUFFIX,2gis.osrm.cloud
+
+# Content & Maps
+DOMAIN-SUFFIX,d-assets.2gis.ru
+DOMAIN-SUFFIX,mapgl.2gis.com
+DOMAIN-SUFFIX,2gis-cdn.com
+
+# Auth & Photos (иногда идут через внутренние сервисы)
+DOMAIN-SUFFIX,dgapi.com
