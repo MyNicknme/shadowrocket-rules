@@ -65,9 +65,21 @@ DOMAIN-SUFFIX,shizhuang.com
 DOMAIN-SUFFIX,shizhuang-inc.net
 DOMAIN-SUFFIX,duapp.com
 DOMAIN-SUFFIX,duapp.net
+DOMAIN-SUFFIX,shizhuang-inc.com
+DOMAIN-SUFFIX,dewu-inc.com
+DOMAIN-SUFFIX,dewucdn.com
+DOMAIN-SUFFIX,s.95fenapp.com
+DOMAIN-SUFFIX,aliyuncs.com
 DOMAIN-KEYWORD,shizhuang
+DOMAIN-KEYWORD,poizon
+DOMAIN-KEYWORD,dewu
+USER-AGENT,Poizon*
+USER-AGENT,Dewu*
+USER-AGENT,DuApp*
 IP-ASN,136188,no-resolve
-
+IP-ASN,AS9808,no-resolve
+IP-ASN,AS37963,no-resolve
+IP-ASN,AS58563,no-resolve
 ########################
 # 4. Misc & Auth Services
 ########################
