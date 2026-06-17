@@ -1,7 +1,9 @@
 # NAME: Ads & Trackers
-# UPDATED: 2026-02-22
+# UPDATED: 2026-06-17
 
-# Google Ads & Analytics
+# ══════════════════════════════════════════
+# GOOGLE ADS & ANALYTICS
+# ══════════════════════════════════════════
 DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,googlesyndication.com
 DOMAIN-SUFFIX,google-analytics.com
@@ -10,38 +12,110 @@ DOMAIN-SUFFIX,app-measurement.com
 DOMAIN,adservice.google.com
 DOMAIN,adservice.google.ru
 
-# Mobile Trackers
+# ══════════════════════════════════════════
+# МОБИЛЬНЫЕ ТРЕКЕРЫ (атрибуция)
+# ══════════════════════════════════════════
 DOMAIN-SUFFIX,adjust.com
 DOMAIN-SUFFIX,appsflyer.com
+DOMAIN-SUFFIX,branch.io
+DOMAIN-SUFFIX,kochava.com
+DOMAIN-SUFFIX,singular.net
+DOMAIN-SUFFIX,tenjin.io
 DOMAIN,unityads.unity3d.com
+
+# ══════════════════════════════════════════
+# АНАЛИТИКА / ПОВЕДЕНЧЕСКИЕ ТРЕКЕРЫ
+# ══════════════════════════════════════════
 DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,mixpanel.com
+DOMAIN-SUFFIX,segment.com
+DOMAIN-SUFFIX,segmentapis.com
+DOMAIN-SUFFIX,heap.io
+DOMAIN-SUFFIX,heapanalytics.com
+DOMAIN-SUFFIX,hotjar.com
+DOMAIN-SUFFIX,fullstory.com
+DOMAIN-SUFFIX,logrocket.com
+DOMAIN-SUFFIX,mouseflow.com
 
-# Yandex Ads & Metrica
+# ══════════════════════════════════════════
+# ЯНДЕКС РЕКЛАМА И МЕТРИКА
+# ══════════════════════════════════════════
 DOMAIN,mc.yandex.ru
 DOMAIN,an.yandex.ru
 DOMAIN-SUFFIX,yandexmetrica.com
 DOMAIN,um.yandex.ru
 DOMAIN,advertising.yandex.ru
 DOMAIN-SUFFIX,offerwall.yandex.net
+DOMAIN,bs.yandex.ru
+DOMAIN,awaps.yandex.ru
 
-# Mail.ru & VK Ads
+# ══════════════════════════════════════════
+# VK / MAIL.RU РЕКЛАМА И ТРЕКЕРЫ
+# ══════════════════════════════════════════
 DOMAIN,top-fwz1.mail.ru
 DOMAIN-SUFFIX,mradx.net
 DOMAIN-SUFFIX,vk-portal.net
 DOMAIN,ads.vk.com
+DOMAIN,tracker-api.vk-analytics.ru
+DOMAIN-SUFFIX,vk-analytics.ru
 
-# Viber Ads
+# ══════════════════════════════════════════
+# СТОРОННИЕ ТРЕКЕРЫ (RU-специфичные)
+# ══════════════════════════════════════════
+DOMAIN,sdk-api.apptracer.ru
+DOMAIN-SUFFIX,apptracer.ru
+DOMAIN-SUFFIX,digitaltarget.ru
+DOMAIN-SUFFIX,sape.ru
+DOMAIN-SUFFIX,begun.ru
+DOMAIN-SUFFIX,adfox.ru
+DOMAIN-SUFFIX,adfox.net
+
+# ══════════════════════════════════════════
+# VIBER ADS
+# ══════════════════════════════════════════
 DOMAIN,ads.viber.com
 DOMAIN,ads-d.viber.com
 DOMAIN,ads-v.viber.com
 
-# Crashlytics / Firebase (осторожно с installations)
-#DOMAIN-SUFFIX,crashlytics.com
-#DOMAIN,firebase-settings.crashlytics.com
-#DOMAIN,firebaseinstallations.googleapis.com
-
-# Microsoft Telemetry
+# ══════════════════════════════════════════
+# MICROSOFT ТЕЛЕМЕТРИЯ
+# ══════════════════════════════════════════
 DOMAIN,vortex.data.microsoft.com
 DOMAIN,telemetry.microsoft.com
 DOMAIN,onecollector.cloudapp.net
+DOMAIN,watson.telemetry.microsoft.com
+DOMAIN,settings-win.data.microsoft.com
+
+# ══════════════════════════════════════════
+# APPLE ТЕЛЕМЕТРИЯ
+# (не трогает функциональность, только сбор данных)
+# ══════════════════════════════════════════
+DOMAIN,metrics.apple.com
+DOMAIN,xp.apple.com
+# ОСТОРОЖНО: раскомментируй только если не используешь
+# Feedback Assistant / диагностику
+# DOMAIN,diagassets.apple.com
+
+# ══════════════════════════════════════════
+# ОБЩИЕ РЕКЛАМНЫЕ СЕТИ
+# ══════════════════════════════════════════
+DOMAIN-SUFFIX,adcolony.com
+DOMAIN-SUFFIX,chartboost.com
+DOMAIN-SUFFIX,ironsrc.com
+DOMAIN-SUFFIX,ironsource.com
+DOMAIN-SUFFIX,inmobi.com
+DOMAIN-SUFFIX,tapjoy.com
+DOMAIN-SUFFIX,mopub.com
+DOMAIN-SUFFIX,adtiming.com
+DOMAIN-SUFFIX,applovin.com
+DOMAIN-SUFFIX,fyber.com
+DOMAIN-SUFFIX,vungle.com
+DOMAIN-SUFFIX,pangle.io
+
+# ══════════════════════════════════════════
+# CRASHLYTICS / FIREBASE
+# (раскомментируй если не нужна отладка)
+# ══════════════════════════════════════════
+#DOMAIN-SUFFIX,crashlytics.com
+#DOMAIN,firebase-settings.crashlytics.com
+#DOMAIN,firebaseinstallations.googleapis.com
