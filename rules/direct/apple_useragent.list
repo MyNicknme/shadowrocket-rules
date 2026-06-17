@@ -1,15 +1,37 @@
 # NAME: Apple User-Agent Direct
-# UPDATED: 2026-03-02
+# UPDATED: 2026-06-17
+# Системные процессы Apple — всегда DIRECT
+# (геолокация, доверие, карты, Find My, фоновые обновления)
 
+# Find My / Location
 USER-AGENT,FMDClient*
 USER-AGENT,FMFD*
 USER-AGENT,FindMyFriends*
 USER-AGENT,FindMyiPhone*
+
+# App Store daemon
 USER-AGENT,com.apple.appstored*
+
+# Безопасность / сертификаты
 USER-AGENT,com.apple.trustd*
+
+# Карты
 USER-AGENT,com.apple.Maps*
 USER-AGENT,geod*
+
+# Геолокация
 USER-AGENT,locationd*
+
+# Пароли / Keychain
 USER-AGENT,passd*
-# Optional (if you see it in logs)
+
+# iCloud фоновые демоны
+USER-AGENT,com.apple.icloud*
+USER-AGENT,com.apple.cloudd*
+
+# Системные фоновые сетевые запросы (обновления конфигураций, телеметрия)
+USER-AGENT,nsurlsessiond*
+
+# Опционально — раскомментируй если видишь в логах
 # USER-AGENT,*WeatherFoundation*
+# USER-AGENT,com.apple.weather*
