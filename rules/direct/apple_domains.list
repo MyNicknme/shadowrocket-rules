@@ -1,19 +1,23 @@
-# NAME: Apple Domains Direct (System & iCloud)
-# UPDATED: 2026-03-02
+# NAME: Apple Domains — PROXY
+# UPDATED: 2026-06-17
+# Домены App Store, iCloud, MAS — через PROXY для скорости в РФ
+# ВАЖНО: apple-dns.net и doh.dns.apple.com прописаны отдельно в DIRECT
 
+# App Store / iTunes
 DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,mzstatic.com
+
+# iCloud
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,apple-cloudkit.com
-DOMAIN-SUFFIX,mzstatic.com
 
-# Apple system infrastructure
+# Apple системная инфраструктура
 DOMAIN-SUFFIX,ls.apple.com
 DOMAIN-SUFFIX,gateway.icloud.com
 
-# Updates / config
+# Обновления / конфигурации
 DOMAIN,configuration.apple.com
 DOMAIN,gdmf.apple.com
 DOMAIN,xp.apple.com
-DOMAIN-SUFFIX,apple-dns.net
