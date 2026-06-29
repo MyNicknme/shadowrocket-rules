@@ -45,10 +45,15 @@ DOMAIN-SUFFIX,kinopoisk.ru
 ########################
 # Banks, Payments & Insurance
 ########################
+DOMAIN,id.alfabank.ru
 DOMAIN-SUFFIX,sberbank.ru
 DOMAIN-SUFFIX,tinkoff.ru
 DOMAIN-SUFFIX,t-bank.ru
 DOMAIN-SUFFIX,alfabank.ru
+DOMAIN-SUFFIX,alfa.bank
+DOMAIN-SUFFIX,alfabank.com
+DOMAIN-SUFFIX,alfabank.st
+DOMAIN-SUFFIX,alfabank.servicecdn.ru
 DOMAIN-SUFFIX,vtb.ru
 DOMAIN-SUFFIX,raiffeisen.ru
 DOMAIN-SUFFIX,nspk.ru
