@@ -90,8 +90,8 @@ DOMAIN,settings-win.data.microsoft.com
 # APPLE ТЕЛЕМЕТРИЯ
 # (не трогает функциональность, только сбор данных)
 # ══════════════════════════════════════════
-DOMAIN,metrics.apple.com
-DOMAIN,xp.apple.com
+# DOMAIN,metrics.apple.com
+# DOMAIN,xp.apple.com
 # ОСТОРОЖНО: раскомментируй только если не используешь
 # Feedback Assistant / диагностику
 # DOMAIN,diagassets.apple.com
