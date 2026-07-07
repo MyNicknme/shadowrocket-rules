@@ -1,1 +1,52 @@
+# ══════════════════════════════════════════
+# SUPERCELL
+# Clash of Clans
+# Clash Royale
+# Brawl Stars
+# Hay Day
+# Boom Beach
+# Squad Busters
+# ══════════════════════════════════════════
 
+DOMAIN-SUFFIX,supercell.com
+DOMAIN-SUFFIX,supercell.net
+DOMAIN-SUFFIX,supercellgame.com
+DOMAIN-SUFFIX,haydaygame.com
+DOMAIN-SUFFIX,clashofclans.com
+DOMAIN-SUFFIX,clashroyale.com
+DOMAIN-SUFFIX,brawlstarsgame.com
+DOMAIN-SUFFIX,boombeach.com
+
+# Supercell ID
+DOMAIN,id.supercell.com
+
+# Marketing / Reward Ads
+DOMAIN,init.mkt.supercell.com
+DOMAIN,report.mkt.supercell.com
+
+# Game servers
+DOMAIN,game.haydaygame.com
+
+# ══════════════════════════════════════════
+# APPLOVIN
+# ══════════════════════════════════════════
+
+DOMAIN-SUFFIX,applvn.com
+DOMAIN-SUFFIX,applovin.com
+
+# ══════════════════════════════════════════
+# UNITY ADS
+# ══════════════════════════════════════════
+
+DOMAIN-SUFFIX,unity3d.com
+DOMAIN-SUFFIX,unityads.unity3d.com
+DOMAIN-SUFFIX,mediation.unity3d.com
+DOMAIN,o-sdk.mediation.unity3d.com
+
+# ══════════════════════════════════════════
+# GOOGLE MOBILE ADS
+# ══════════════════════════════════════════
+
+DOMAIN-SUFFIX,admob.com
+DOMAIN-SUFFIX,googleads.g.doubleclick.net
+DOMAIN-SUFFIX,doubleclick.net
