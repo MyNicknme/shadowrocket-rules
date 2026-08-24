@@ -1,13 +1,17 @@
 # NAME: Google Core Services
-# UPDATED: 2026-03-02
-# PURPOSE: Search & core Google services DIRECT
+# UPDATED: 2026-08-24
+# PURPOSE: Google Search & core services DIRECT
+#
+# YouTube intentionally NOT included.
+# youtube.list has higher priority and goes through PROXY.
 
 ########################
 # Search / main
 ########################
-DOMAIN-SUFFIX,google.com
+DOMAIN,google.com
+DOMAIN,www.google.com
+DOMAIN,www.google.ru
 DOMAIN-SUFFIX,google.ru
-DOMAIN-SUFFIX,googleusercontent.com
 
 ########################
 # Account / auth
@@ -17,23 +21,33 @@ DOMAIN,myaccount.google.com
 DOMAIN-SUFFIX,pki.goog
 
 ########################
-# Mail / Drive / Docs
+# Gmail
 ########################
 DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,googlemail.com
-DOMAIN,drive.google.com
-DOMAIN,docs.google.com
 
 ########################
-# Maps
+# Drive / Docs
+########################
+DOMAIN,drive.google.com
+DOMAIN,docs.google.com
+DOMAIN,sheets.google.com
+DOMAIN,slides.google.com
+
+########################
+# Maps / navigation
 ########################
 DOMAIN,maps.google.com
 DOMAIN-SUFFIX,waze.com
+
+########################
+# Google static / user content
+########################
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,googleusercontent.com
 
 ########################
 # CAPTCHA
 ########################
 DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,recaptcha-cn.net
-
-
