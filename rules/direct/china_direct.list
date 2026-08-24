@@ -1,20 +1,25 @@
-# NAME: China Services (Alibaba + Tencent + Poizon)
-# UPDATED: 2026-03-02
+# NAME: China Services
+# UPDATED: 2026-08-24
 # PURPOSE: Critical China services DIRECT
+#
+# Alibaba / Alipay / Tencent / WeChat / Poizon (Dewu)
 
 ########################
-# 1. Alibaba Group (Alipay, Taobao, Tmall, Aliyun)
+# 1. Alibaba Group
 ########################
 DOMAIN-SUFFIX,alibaba.com
 DOMAIN-SUFFIX,alicdn.com
 DOMAIN-SUFFIX,aliyun.com
+DOMAIN-SUFFIX,aliyuncs.com
 DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,tmall.com
 DOMAIN-SUFFIX,tbcache.com
 DOMAIN-SUFFIX,tbcdn.com
 DOMAIN-SUFFIX,mmstat.com
 
-# Alipay & Ant Group
+########################
+# 2. Alipay / Ant Group
+########################
 DOMAIN-SUFFIX,alipay.com
 DOMAIN-SUFFIX,alipay.cn
 DOMAIN-SUFFIX,alipay.com.cn
@@ -31,12 +36,16 @@ DOMAIN-SUFFIX,alipaydesign.com
 DOMAIN-SUFFIX,alipaydev.com
 DOMAIN-SUFFIX,alipaymo.com
 DOMAIN-SUFFIX,zamcs.com
+
 DOMAIN,globalmapi.alipay.com
 DOMAIN,mapi.alipay.com
+
+# Alibaba Cloud
 IP-ASN,37963,no-resolve
 
 ########################
-# 2. Tencent Ecosystem (WeChat, QQ, Tenpay)
+# 3. Tencent Ecosystem
+# WeChat / QQ / Tenpay
 ########################
 DOMAIN-SUFFIX,wechat.com
 DOMAIN-SUFFIX,weixin.com
@@ -45,65 +54,47 @@ DOMAIN-SUFFIX,weixinbridge.com
 DOMAIN-SUFFIX,wechatos.net
 DOMAIN-SUFFIX,servicewechat.com
 DOMAIN-SUFFIX,tenpay.com
+
 DOMAIN-SUFFIX,qq.com
 DOMAIN-SUFFIX,gtimg.com
 DOMAIN-SUFFIX,qlogo.cn
 DOMAIN-SUFFIX,qpic.cn
-DOMAIN,btrace.qq.com
-DOMAIN,dldir1.qq.com
-DOMAIN,vweixinf.tc.qq.com
-DOMAIN,weixin110.qq.com
+
+# Tencent infrastructure
 IP-ASN,132203,no-resolve
 
 ########################
-# 3. Poizon / Dewu
+# 4. Poizon / Dewu
 ########################
 DOMAIN-SUFFIX,dewu.com
 DOMAIN-SUFFIX,poizon.com
 DOMAIN-SUFFIX,izhuang.com
 DOMAIN-SUFFIX,shizhuang.com
 DOMAIN-SUFFIX,shizhuang-inc.net
+DOMAIN-SUFFIX,shizhuang-inc.com
 DOMAIN-SUFFIX,duapp.com
 DOMAIN-SUFFIX,duapp.net
-DOMAIN-SUFFIX,shizhuang-inc.com
 DOMAIN-SUFFIX,dewu-inc.com
 DOMAIN-SUFFIX,dewucdn.com
-DOMAIN-SUFFIX,s.95fenapp.com
-DOMAIN-SUFFIX,aliyuncs.com
+DOMAIN-SUFFIX,95fenapp.com
+
 DOMAIN-KEYWORD,shizhuang
 DOMAIN-KEYWORD,poizon
 DOMAIN-KEYWORD,dewu
+
 USER-AGENT,Poizon*
 USER-AGENT,Dewu*
 USER-AGENT,DuApp*
-IP-ASN,136188,no-resolve
-IP-ASN,AS9808,no-resolve
-IP-ASN,AS37963,no-resolve
-IP-ASN,AS58563,no-resolve
+
 ########################
-# 4. Misc & Auth Services
+# 5. Misc China / Auth
 ########################
 DOMAIN-SUFFIX,ifaa.org.cn
 DOMAIN-SUFFIX,sinopayment.com.cn
 DOMAIN-SUFFIX,slife.xy-asia.com
 
 ########################
-# 5. Optional User-Agent / keyword fallback
+# 6. WeChat User-Agent
 ########################
 USER-AGENT,MicroMessenger*
 USER-AGENT,WeChat*
-DOMAIN-KEYWORD,alipay
-
-########################
-# 6. WeChat extra (optional, common in logs)
-########################
-DOMAIN-SUFFIX,weixin.qq.com
-DOMAIN-SUFFIX,wx.qq.com
-DOMAIN-SUFFIX,wxs.qq.com
-DOMAIN-SUFFIX,wx.gtimg.com
-DOMAIN-SUFFIX,wxapp.tc.qq.com
-DOMAIN-SUFFIX,vweixinthumb.tc.qq.com
-DOMAIN-SUFFIX,up-hl.3g.qq.com
-DOMAIN-SUFFIX,yun-hl.3g.qq.com
-DOMAIN,wup.imtt.qq.com
-DOMAIN,soup.v.qq.com
