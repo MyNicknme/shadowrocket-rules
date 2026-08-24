@@ -1,20 +1,24 @@
-# NAME: Apple IP Fallback (Direct)
-# UPDATED: 2026-06-17
-# IP-подсети Apple для системных нужд — DIRECT
-# Применяется как fallback после доменных и UA правил
+# NAME: Apple IP Fallback — DIRECT
+# UPDATED: 2026-08-24
+# PURPOSE: Apple IP infrastructure fallback
+#
+# Used after Apple domain / User-Agent rules.
+# no-resolve prevents unnecessary DNS lookups.
 
-# Основной блок Apple (17.0.0.0/8 — весь диапазон Apple Inc.)
+########################
+# Apple primary network
+########################
 IP-CIDR,17.0.0.0/8,no-resolve
 
-# Apple CDN / delivery (обычно не замедлены в РФ)
-IP-CIDR,17.248.128.0/18,no-resolve
-IP-CIDR,17.249.0.0/16,no-resolve
-
-# Прочие подсети Apple
+########################
+# Apple additional networks
+########################
 IP-CIDR,63.92.224.0/19,no-resolve
 IP-CIDR,65.199.22.0/23,no-resolve
 IP-CIDR,139.178.128.0/18,no-resolve
 IP-CIDR,144.178.0.0/19,no-resolve
+IP-CIDR,144.178.36.0/22,no-resolve
+IP-CIDR,144.178.48.0/20,no-resolve
 IP-CIDR,192.35.50.0/24,no-resolve
 IP-CIDR,198.183.17.0/24,no-resolve
 IP-CIDR,205.180.175.0/24,no-resolve
