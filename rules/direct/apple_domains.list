@@ -15,6 +15,7 @@ DOMAIN-SUFFIX,apple.com
 # App Store / iTunes CDN
 ########################
 DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,cdn-apple.com
 
 ########################
 # iCloud
