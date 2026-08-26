@@ -1,5 +1,5 @@
 # NAME: Apple User-Agent — DIRECT
-# UPDATED: 2026-08-24
+# UPDATED: 2026-08-26
 # PURPOSE: Apple system processes DIRECT
 
 ########################
@@ -10,6 +10,7 @@ USER-AGENT,FMFD*
 USER-AGENT,FindMyFriends*
 USER-AGENT,FindMyiPhone*
 USER-AGENT,fmflocatord*
+USER-AGENT,*com.apple.mobileme.fmip1
 
 ########################
 # App Store
@@ -51,12 +52,7 @@ USER-AGENT,AppleTV*
 USER-AGENT,com.apple.tv*
 
 ########################
-# System background networking
+# Weather
 ########################
-#USER-AGENT,nsurlsessiond*
-
-########################
-# Optional
-########################
-#USER-AGENT,*WeatherFoundation*
+USER-AGENT,*WeatherFoundation*
 #USER-AGENT,com.apple.weather*
