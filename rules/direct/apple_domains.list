@@ -1,10 +1,6 @@
 # NAME: Apple Domains — DIRECT
-# UPDATED: 2026-08-24
-# PURPOSE: Apple services DIRECT
-#
-# App Store / iCloud / Apple system services go DIRECT.
-# This configuration is intentionally optimized for
-# faster Apple services access without proxy.
+# UPDATED: 2026-08-26
+# PURPOSE: Apple services and CDN DIRECT
 
 ########################
 # Apple core
@@ -12,7 +8,7 @@
 DOMAIN-SUFFIX,apple.com
 
 ########################
-# App Store / iTunes CDN
+# App Store / Media / CDN
 ########################
 DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,cdn-apple.com
@@ -26,7 +22,21 @@ DOMAIN-SUFFIX,me.com
 DOMAIN-SUFFIX,apple-cloudkit.com
 
 ########################
-# Apple DNS / infrastructure
+# Apple DNS
 ########################
 DOMAIN-SUFFIX,apple-dns.net
 DOMAIN,doh.dns.apple.com
+
+########################
+# Apple CDN / Akamai / EdgeKey
+########################
+DOMAIN-KEYWORD,apple-support.akadns.net
+DOMAIN-KEYWORD,apple.com.akadns.net
+DOMAIN-KEYWORD,apple.com.edgekey.net
+DOMAIN-KEYWORD,icloud.com.akadns.net
+
+########################
+# Apple additional services
+########################
+DOMAIN-KEYWORD,smp-device
+DOMAIN-KEYWORD,testflight
