@@ -6,6 +6,7 @@
 # Apple core
 ########################
 DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,aaplimg.com
 
 ########################
 # App Store / Media / CDN
